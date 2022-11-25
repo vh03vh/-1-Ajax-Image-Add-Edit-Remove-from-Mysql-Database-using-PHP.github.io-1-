@@ -1,0 +1,23 @@
+@viewport{width:device-width}@-ms-viewport{width:device-width}*{box-sizing:border-box}html{font-size:62.5%}body{font-size:1.2rem;line-height:0rem}
+spann {
+  #display: inline-block;
+  #vertical-align: text-top;
+  #margin-left: 0px;
+  #margin-top:0px;
+  #padding: 0 5px;
+  #line-height: 16px;
+  #font-size: 12px;
+  #color: #57FFFF;
+  #font-weight:none;
+  
+  #text-shadow: 0 1px #902a27;
+  #background: #00FFFF;
+  #border-radius: 2px;
+ 
+  
+ 
+ 
+  
+ 
+ 
+}

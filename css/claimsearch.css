@@ -1,0 +1,48 @@
+table.tftable {
+  font-family: 'Arial';
+  font-size:11px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #555;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+}
+table.tftable th {
+	background-color:#ff0000;
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #555;
+	color:#e9e9ff;
+}
+table.tftable tr {
+	background-color:#ffffff;
+}
+table.tftable td {
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.tftable td a {
+	color: #000;
+	text-decoration: none;
+	text-transform:uppercase;
+	color:#0000cc;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #e8e8e8;
+
+	
+	
+	
+}
+
+table.tftable td a:hover {
+	color: #ff0033;
+	font-weight:bold;
+	tool-tip:balance;
+	text-shadow:1px 2px 3px #e8e8e8;
+}

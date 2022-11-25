@@ -1,0 +1,119 @@
+/* -------------------------------------------
+project:	CSS Ninjas
+date:		2008/07/12
+------------------------------------------- */
+
+html { font-size: 100.01%; }
+body { margin: 0; padding: 0; background: #fff; color: #333; font: 62.5%/1.4 Georgia,serif; }
+textarea, input, select, option, optgroup, button { font: 1em Georgia,serif; }
+
+/* RE-SETS
+------------------------------------------- */
+* { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+li, dt, dd, p, th, td, caption { font-size: 1.3em; }
+ul, ol, dl { margin-bottom: 1.5em; }
+p { margin-bottom: 1.25em; }
+li *, li p, li li, dt *, dd *, p * { font-size: 1em; }
+
+fieldset, img { border: none; }
+button { overflow: visible; }
+legend { display: none; }
+
+em { padding: 1px 3px; background: #78a3ae; color: #fff; font-style: normal; }
+
+a { color: #369; text-decoration: underline; }
+a:hover, a:focus, a:active { color: #000; }
+
+/* HEADINGS
+------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { margin: 0 0 12px; color: #333; font: bold 3.4em Georgia,Geneva,serif; }
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+/* HELPERS
+------------------------------------------- */
+.wrapper { width: 100%; overflow: hidden; }
+.center { margin-left: auto; margin-right: auto; text-align: center; }
+.offset { display: none; }
+
+legend.offset { display: none; }
+
+/* LAYOUT
+------------------------------------------- */
+#root { }
+ #top { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 1px solid #ccc; }
+  #top div.inner { }
+   #logo { margin: 0; padding: 0; }
+   #nav { display: none; }
+   #bookmarks { display: none; }
+ #content {  }
+    #header { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 1px solid #ccc; }
+     #header h2 { margin: 0; font-size: 2.0em; font-weight: normal; }
+     #header p { display: none; }
+    #steps { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 1px solid #ccc; }
+     #steps ol { list-style: none; margin: 0; padding: 0; }
+    #wrap { }
+     #wrap #main { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 1px solid #ccc; }
+     #wrap #side { display: none; }
+ #footer {  }
+  #footer p { display: inline; float: left; margin: 0; color: #bbb; font: bold 0.9em/1.2 Verdana,sans-serif; }
+  #footer p.first { float: right; margin: 0; font-weight: normal; }
+   #footer p a { color: #333; text-decoration: none; }
+  #footer ul { display: none; }
+	 
+/* SKIP LINKS
+------------------------------------------- */
+#skip-links { display: none; }
+
+/* GENERAL
+------------------------------------------- */
+div.project-a { overflow: hidden; width: 100%; margin: 0 0 10px; }
+ div.project-a p.image { float: left; width: 240px; margin: 0 -240px 0 0; }
+  div.project-a p.image img { display: block; }
+ div.project-a div.info { position: relative; margin: 0 0 0 241px; padding: 15px 10px 35px 20px; }
+
+ul.logos-a { list-style: none; width: 100%; margin: 0 0 15px; padding: 0; }
+ ul.logos-a li { display: inline; padding: 0 0 8px 8px; }
+  ul.logos-a li img { padding: 1px; border: 3px solid #bcdee7; }
+ 
+ol.features-a { margin: 0 0 15px; padding: 0 0 0 25px; }
+ ol.features-a li { margin: 0 0 10px; font-size: 1em; }
+  ol.features-a li h2 { margin: 0 0 2px; color: #333; font-size: 1.6em; line-height: 1.25; }
+  ol.features-a li p { margin: 0 0 3px; font-size: 1.3em; }
+
+form.a { width: 100%; margin: 0 0 15px; padding: 0; }
+ form.a p { position: relative; margin: 0; padding: 15px 0 15px 115px; border-top: 1px solid #a6c6cf; }
+ * html form.a p { height: 1%; }
+ form.a p.error { margin: -10px 0 0; padding: 0 0 15px 115px; border: none; color: #14121d; font: 0.9em/1.1 Verdana,sans-serif; }
+ form.a p.offset { position: absolute; }
+  form.a p label { position: absolute; left: 0; top: 17px; width: 110px; font-weight: bold; }
+  form.a p span { display: block; margin: 5px 0 0; color: #14121d; font: 0.69em/1 Verdana,sans-serif; }
+  form.a p input { width: 300px; padding: 2px 3px; border: 1px solid #76a7b6; border-color: #76a7b6 #90b8c4 #90b8c4 #76a7b6; background: #fff url(../images/bg-inputs-a.png) no-repeat; }
+  form.a p textarea { overflow: auto; width: 400px; height: 120px; padding: 2px 3px; border: 1px solid #76a7b6; border-color: #76a7b6 #90b8c4 #90b8c4 #76a7b6; background: #fff url(../images/bg-inputs-a.png) no-repeat; }
+  form.a p select { padding: 2px; border: 1px solid #76a7b6; border-color: #76a7b6 #90b8c4 #90b8c4 #76a7b6; background: #fff url(../images/bg-inputs-a.png) no-repeat; }
+  form.a p img { vertical-align: middle; }
+  form.a p strong { color: #000; }
+  
+dl.faq-a { margin: 0 0 15px; padding: 0; }
+ dl.faq-a dt { margin: 0; padding: 0 0 0 15px; color: #205f73; font: bold 1.3em/1.4 Georgia,serif; text-indent: -15px; }
+  dl.faq-a dt span { display: none; }
+ dl.faq-a dd { display: block !important; margin: 0 0 10px; padding: 0 0 0 15px; }
+  dl.faq-a dd p { margin: 0 0 5px; }
+  
+a.veboo-a { font-weight: bold; text-transform: uppercase; }
+ a.veboo-a span { padding: 0 0 0 1px; color: #fcfdc5; font-size: 0.75em; font-weight: normal; line-height: 1; vertical-align: 3px; }
+ 
+/* ELEMENTS
+------------------------------------------- */
+
+#ordered { }
+ #ordered p.order { margin: 0 0 12px; padding: 10px; border: 1px dotted #aaa; color: #000; font: bold 2.8em/1 Georgia,serif; text-align: center; }
+ #ordered p.print { display: none; }
+/* SIFR */
+.sIFR-flash, .sIFR-flash object, .sIFR-flash embed { display: none !important; position: absolute; overflow: hidden; width: 0; height: 0; }
+span.sIFR-alternate { display: block !important; position: static !important; left: auto !important; top: auto !important; visibility: visible !important; }

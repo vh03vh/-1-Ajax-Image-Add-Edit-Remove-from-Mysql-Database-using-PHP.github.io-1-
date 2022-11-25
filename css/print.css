@@ -1,0 +1,26 @@
+
+.table table-hover tr,th,td{
+	border-collapse:collapse;
+	border:#000 1px solid;
+	 border: 1px solid #555;
+	 height:2em;
+ 
+	}
+	@media print {
+	printbtn{
+	display :none;
+	}
+	}
+.table table-hover tr th{
+	background:#069;
+	border:#000 1px solid;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	}
+.table table-hover tr td{
+	font-family:"Ariel", Times, serif;
+	font-size:10px;
+	border:#000 1px solid;
+	color:#000;
+}
